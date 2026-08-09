@@ -8,7 +8,7 @@ const WorkoutDetails = ({workout}) => {
   const { dispatch } = UseWorkoutsContext();
 
   const handleClick = async () => {
-    const response = await fetch(`${import.meta.env.VITE_API_URL}/api/workouts`+ workout._id, {    
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/api/workouts/`+ workout._id, {    
       method: 'DELETE'
     })
     const json = await response.json()
