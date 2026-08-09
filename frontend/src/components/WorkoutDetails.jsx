@@ -1,6 +1,23 @@
 import React from 'react'
+import {UseWorkoutsContext} from '../hooks/UseWorkoutContext'
 
 const WorkoutDetails = ({workout}) => {
+  
+  const { dispatch } = UseWorkoutsContext();
+
+  const handleClick = async () => {
+    const response = await fetch('/api/workouts/' + workout._id, {    
+      method: 'DELETE'
+    })
+    const json = await response.json()
+
+    if(response.ok) {
+      dispatch({type: 'DELETE_WORKOUT', payload: json})
+    } else {
+      console.error('Failed to delete:', json.error)
+    }
+  }
+
   return (
     <div className='workout-details'>
       <h3>{workout.title}</h3>
@@ -8,6 +25,8 @@ const WorkoutDetails = ({workout}) => {
       <p><strong>Reps:</strong> {workout.reps}</p>
 
       <p>{workout.createdAt}</p>
+
+      <span onClick ={handleClick}>Delete</span>
     </div>
   )
 }
