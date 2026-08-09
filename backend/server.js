@@ -5,6 +5,8 @@ const mongoose = require('mongoose');
 
 const workoutRoutes = require('./routes/workout')
 
+const cors = require('cors')
+
 dotenv.config();
 
 // Express app
@@ -12,7 +14,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'https://workout-buddyy.vercel.app', // Explicitly allow your Vercel URL
+    origin: 'https://workout-buddyy.vercel.app',
     methods: ['GET', 'POST', 'DELETE', 'PATCH', 'PUT'],
     credentials: true
 }));
