@@ -74,6 +74,17 @@ header a{
     color: #333;
 }
 
+.workout-details .h {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    padding: 8px ;
+    border-radius: 50%;
+    color: #333;
+}
+
 label, input{
     display: block;
 }
@@ -105,4 +116,19 @@ div.error{
     margin: 20px 0;
     border-radius: 4px;
     border: 1px solid var(--error); 
+}
+
+
+input.error{
+    border: 1px solid var(--error);
+    /* color: var(--primary); */
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
