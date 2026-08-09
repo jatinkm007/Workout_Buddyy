@@ -10,6 +10,13 @@ dotenv.config();
 // Express app
 const app = express();
 
+
+app.use(cors({
+    origin: 'https://workout-buddyy.vercel.app', // Explicitly allow your Vercel URL
+    methods: ['GET', 'POST', 'DELETE', 'PATCH', 'PUT'],
+    credentials: true
+}));
+
 // Middleware
 
 app.use(express.json())
