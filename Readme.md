@@ -2,7 +2,7 @@
 
 **Workout Buddyyy** is a modern fitness and workout web application designed to help users stay consistent with their fitness journey. The project provides an easy-to-use interface for exploring workouts, maintaining fitness routines, and keeping track of training activities.
 
-🔗 **Live Demo:** https://workout-buddyy.vercel.app/
+🔗 **[Live Demo](https://workout-buddyy.vercel.app/)**
 
 ---
 
@@ -222,9 +222,9 @@ Frontend / Full-Stack Web Developer
 
 ### Connect With Me
 
-* 💼 LinkedIn: **www.linkedin.com/in/jatin-kumar-mishra**
-* 🐙 GitHub: **[Add your GitHub URL](https://github.com/jatinkm007)**
-* 🌐 Portfolio: **[Add your portfolio URL](https://protfolio-jatin.vercel.app/)**
+* 💼 LinkedIn: **[LinkedIn]www.linkedin.com/in/jatin-kumar-mishra**
+* 🐙 GitHub: **[GitHub](https://github.com/jatinkm007)**
+* 🌐 Portfolio: **[Portfolio](https://protfolio-jatin.vercel.app/)**
 
 ---
 
