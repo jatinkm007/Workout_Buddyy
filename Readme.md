@@ -222,9 +222,9 @@ Frontend / Full-Stack Web Developer
 
 ### Connect With Me
 
-* 💼 LinkedIn: **Add your LinkedIn URL**
-* 🐙 GitHub: **Add your GitHub URL**
-* 🌐 Portfolio: **Add your portfolio URL**
+* 💼 LinkedIn: **www.linkedin.com/in/jatin-kumar-mishra**
+* 🐙 GitHub: **[Add your GitHub URL](https://github.com/jatinkm007)**
+* 🌐 Portfolio: **[Add your portfolio URL](https://protfolio-jatin.vercel.app/)**
 
 ---
 
