@@ -232,10 +232,3 @@ Frontend / Full-Stack Web Developer
 
 If you found this project useful or interesting, consider giving the repository a ⭐ on GitHub.
 
----
-
-## 📄 License
-
-This project is created for learning, development, and portfolio purposes.
-
-© 2026 Jatin. All Rights Reserved.
