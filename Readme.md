@@ -129,30 +129,6 @@ You can try the deployed application here:
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of your application here to make the GitHub repository more attractive to recruiters and developers.
-
-Example:
-
-```markdown
-![Home Page](./screenshots/home.png)
-
-![Workout Page](./screenshots/workout.png)
-
-![Exercise Page](./screenshots/exercise.png)
-```
-
-Recommended screenshots:
-
-* Home page
-* Workout/exercise section
-* Search functionality
-* Mobile responsive view
-* Any unique feature of the application
-
----
-
 ## 🎯 Project Goals
 
 The project was created with the following goals:
