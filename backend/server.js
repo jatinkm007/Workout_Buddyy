@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 
 const workoutRoutes = require('./routes/workout')
+const userRoutes = require('./routes/user')
 
 const cors = require('cors')
 
@@ -21,7 +22,7 @@ app.use(cors({
 
 // Middleware
 
-app.use(express.json())
+app.use(express.json());
 
 app.use((req, res, next) => {
     console.log(req.path, req.method);
@@ -34,6 +35,7 @@ app.get('/', (req, res) => {
 })
 
 app.use('/api/workouts/', workoutRoutes);
+app.use('/api/user', userRoutes);
 
 // Connect to DB
 mongoose.connect(process.env.MONGO_URI)
