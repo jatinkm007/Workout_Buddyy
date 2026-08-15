@@ -15,7 +15,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'https://workout-buddyy.vercel.app',
+    origin: ['https://workout-buddyy.vercel.app', 'http://localhost:5173'],
     methods: ['GET', 'POST', 'DELETE', 'PATCH', 'PUT'],
     credentials: true
 }));

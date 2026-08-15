@@ -4,18 +4,18 @@ import React, { useEffect } from 'react'
 
 import WorkoutDetails from '../components/WorkoutDetails'
 import WorkoutForm from '../components/WorkoutForm'
-import { UseWorkoutsContext } from '../hooks/UseWorkoutContext'
+import { useWorkoutContext } from '../hooks/UseWorkoutContext'
 
 const Home = () => {
 
     // const [workouts, setWorkouts] = useState(null)
 
-    const { workouts, dispatch } = UseWorkoutsContext()
+    const { workouts, dispatch } = useWorkoutContext()
 
     useEffect(() => {
         const fetchWorkouts = async () => {
             // Using template literals (backticks) makes it clean to read
-            const response = await fetch(`${import.meta.env.VITE_API_URL}/api/workouts`);
+            const response = await fetch(`${import.meta.env.VITE_API_URL}/api/workouts/`);
             const json = await response.json()
 
             if (response.ok) {

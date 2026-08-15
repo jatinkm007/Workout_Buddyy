@@ -1,11 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
-import {UseWorkoutsContext} from '../hooks/UseWorkoutContext'
+import {useWorkoutContext} from '../hooks/UseWorkoutContext'
 
 
 const WorkoutForm = () => {
   
-    const {dispatch} = UseWorkoutsContext()
+    const {dispatch} = useWorkoutContext()
 
     const [title, SetTitle] = useState('')
     const [load, SetLoad] = useState('')

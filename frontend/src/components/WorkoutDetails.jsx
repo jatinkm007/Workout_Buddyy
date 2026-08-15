@@ -1,11 +1,11 @@
 import React from 'react'
-import {UseWorkoutsContext} from '../hooks/UseWorkoutContext'
+import {useWorkoutContext} from '../hooks/UseWorkoutContext'
 // Data Fns
 import formatDistanceToNow from 'date-fns/formatDistanceToNow'
 
 const WorkoutDetails = ({workout}) => {
   
-  const { dispatch } = UseWorkoutsContext();
+  const { dispatch } = useWorkoutContext();
 
   const handleClick = async () => {
     const response = await fetch(`${import.meta.env.VITE_API_URL}/api/workouts/`+ workout._id, {    
