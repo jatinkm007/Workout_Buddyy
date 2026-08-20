@@ -10,6 +10,10 @@ const cors = require('cors')
 
 dotenv.config();
 
+// Port num
+const PORT = process.env.PORT;
+
+
 // Express app
 const app = express();
 
@@ -50,5 +54,3 @@ mongoose.connect(process.env.MONGO_URI)
     })
 
 
-// Port num
-const PORT = process.env.PORT;
