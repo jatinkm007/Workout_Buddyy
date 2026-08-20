@@ -2,7 +2,8 @@
 
 **Workout Buddyyy** is a modern fitness and workout web application designed to help users stay consistent with their fitness journey. The project provides an easy-to-use interface for exploring workouts, maintaining fitness routines, and keeping track of training activities.
 
-🔗 **[Live Demo](https://workout-buddyy.vercel.app/)**
+🔗 **[Live Demo Frontend](https://workout-buddyy.vercel.app/)**
+🔗 **[Live Demo Backend](https://workout-buddyy.onrender.com/)**
 
 ---
 

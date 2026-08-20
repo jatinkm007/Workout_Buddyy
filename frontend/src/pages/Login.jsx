@@ -25,7 +25,7 @@ const Login = () => {
 
 
             <label htmlFor="">Password:</label>
-            <input type="passsword" onChange={(e) => setPassword(e.target.value)} value={password} />
+            <input type="password" onChange={(e) => setPassword(e.target.value)} value={password} />
 
             <button disabled={isLoading}>LogIn</button>
 
