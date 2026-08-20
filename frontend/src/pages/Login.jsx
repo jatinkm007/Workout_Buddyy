@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useLogin } from "../hooks/UseLogin";
-import { div } from "framer-motion/client";
 
 
 const Login = () => {
