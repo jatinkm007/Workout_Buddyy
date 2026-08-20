@@ -1,7 +1,6 @@
 const jwt = require('jsonwebtoken')
 const User = require('../models/userModel')
 
-const { split } = require("postcss/lib/list")
 
 const requireAuth = async(req, res, next) =>{
 
